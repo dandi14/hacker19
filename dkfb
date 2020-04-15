@@ -52,7 +52,7 @@ logo = """  \x1b[1;93m______   \x1b[1;92m_______  \x1b[1;94m______    \x1b[1;91m
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93mdagoan hela \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -67,7 +67,7 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mkontol man ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mkontol maneh gede can jang ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
@@ -304,7 +304,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mCrack \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
-	print('\x1b[1;96m[!] \x1b[1;93mStop CTRL+z')
+	print('\x1b[1;96m[!] \x1b[1;93mngopi hela meningan')
 	print 42*"\033[1;96m="
 	
 			
